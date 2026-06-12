@@ -34,14 +34,14 @@ If the key or package is missing, the hook silently skips (see `~/.claude/coach-
 ## Install
 
 ```
-/plugin marketplace add <your-org>/session-coach
+/plugin marketplace add Shahana-Hamza-Mamutty/session-coach
 /plugin install session-coach
 ```
 
 Or clone and add as a local marketplace:
 
 ```
-git clone <repo-url>
+git clone https://github.com/Shahana-Hamza-Mamutty/session-coach.git
 /plugin marketplace add /path/to/session-coach
 ```
 
