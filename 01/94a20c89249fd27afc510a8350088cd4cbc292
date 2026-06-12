@@ -1,0 +1,19 @@
+README.md
+  s_fb3422cdd8d6ae::t_fc03b99458f1ae 37,44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "0194a20c89249fd27afc510a8350088cd4cbc292",
+  "prompts": {},
+  "sessions": {
+    "s_fb3422cdd8d6ae": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "53e5e408-1be2-454a-94cc-1e80a74aac48",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Shahana-Hamza-Mamutty <shahana.mamutty@hungerstation.com>"
+    }
+  }
+}
