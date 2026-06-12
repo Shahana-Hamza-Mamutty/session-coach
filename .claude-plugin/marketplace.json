@@ -1,0 +1,13 @@
+{
+  "name": "session-coach",
+  "owner": {
+    "name": "Shahana Mamutty"
+  },
+  "plugins": [
+    {
+      "name": "session-coach",
+      "source": "./",
+      "description": "Automatic per-session coaching report on quit: model fit, prompt quality, underused features, context management, top tip — grounded in real token and tool usage."
+    }
+  ]
+}

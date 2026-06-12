@@ -1,0 +1,8 @@
+{
+  "name": "session-coach",
+  "description": "Automatic per-session coaching: on quit, analyzes your session (token usage, tool calls, prompts) with Haiku and prints a 5-dimension report — model fit, prompt quality, underused features, context management, top tip. Also shows the report at next session start and provides /coach for cross-session patterns.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Shahana Mamutty"
+  }
+}

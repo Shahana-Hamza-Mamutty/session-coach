@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "SessionEnd": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/session-coach.py\""
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ -f ~/.claude/session-coaching.md ] && { echo \"📋 Last session coaching:\"; awk '/^---$/{d=\"\"} {d=d $0 ORS} END{printf \"%s\",d}' ~/.claude/session-coaching.md; } || true"
+          }
+        ]
+      }
+    ]
+  }
+}
